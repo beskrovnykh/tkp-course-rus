@@ -5,9 +5,9 @@ import org.teachingextensions.logo.Tortoise;
 import org.teachingextensions.logo.Turtle;
 import org.teachingextensions.logo.utils.TortoiseUtils;
 /**
- *      Тестовое задание: циклы в Java (for loops)
+ *      Задание: циклы в Java
  *
- *      Шаг 1: Выбрать метод (например, numbersDoNotNeedQuotes на 27-ой строке),
+ *      Шаг 1: Выбрать метод (например, numbersDoNotNeedQuotes на 30-ой строке),
  *          затем нажать на зеленую кнопку (Run...)
  *
  *      Шаг 2: Убедиться, что задание с тестом не проходит
@@ -16,9 +16,9 @@ import org.teachingextensions.logo.utils.TortoiseUtils;
  *
  *      Шаг 4: После того как тест пройден, повторить вслух то, что вы только что узнали
  *
- *      Шаг 5: Перейти к следующему методу
+ *      Шаг 5: Перейти к следующему заданию
  *
- *      ВАЖНО: Ничего кроме подчеркивания (___) менять не нужно!
+ *      ВАЖНО: Ничего кроме подчеркивания ___ менять не нужно!
  **/
 public class ForLoops {
 
