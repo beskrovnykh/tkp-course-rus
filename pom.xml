@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.teachingkidsprogramming</groupId>
+    <artifactId>translate-russian</artifactId>
+    <packaging>pom</packaging>
+    <version>0.01-SNAPSHOT</version>
+    <modules>
+        <module>lesson1</module>
+        <module>lesson2</module>
+        <module>lesson3</module>
+        <module>lesson4</module>
+        <module>lesson5</module>
+        <module>lesson6</module>
+        <module>lesson7</module>
+        <module>lesson8</module>
+        <module>lesson9</module>
+    </modules>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.teachingkidsprogramming/TeachingKidsProgramming -->
+        <dependency>
+            <groupId>org.teachingkidsprogramming</groupId>
+            <artifactId>TeachingKidsProgramming</artifactId>
+            <version>0.0.8</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
