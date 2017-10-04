@@ -1,6 +1,6 @@
 import org.teachingextensions.logo.Tortoise;
-import org.teachingextensions.logo.ColorWheel;
-import org.teachingextensions.logo.PenColors;
+import org.teachingextensions.logo.utils.ColorUtils.ColorWheel;
+import org.teachingextensions.logo.utils.ColorUtils.PenColors;
 
 /**
  *      Задание: Вложенный цикл
@@ -26,7 +26,6 @@ public class DoubleLoop {
         //  Задать координате y черепашки значение 150 --#1.2
         //  Установить скорость черепашки равную 10 --#8.2
         Tortoise.setSpeed(5);
-        //
         ColorWheel.addColor(PenColors.Reds.Crimson);
         ColorWheel.addColor(PenColors.Reds.DarkRed);
         ColorWheel.addColor(PenColors.Reds.FireBrick);

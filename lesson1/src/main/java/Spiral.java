@@ -1,4 +1,4 @@
-import org.teachingextensions.windows.MessageBox;
+import org.teachingextensions.logo.utils.EventUtils.MessageBox;
 
 /**
  *      Задание: Спираль

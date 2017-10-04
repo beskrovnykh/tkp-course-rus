@@ -4,6 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <groupId>org.teachingkidsprogramming</groupId>
     <artifactId>translate-russian</artifactId>
     <packaging>pom</packaging>
@@ -20,13 +27,11 @@
         <module>lesson9</module>
     </modules>
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.teachingkidsprogramming/TeachingKidsProgramming -->
         <dependency>
-            <groupId>org.teachingkidsprogramming</groupId>
-            <artifactId>TeachingKidsProgramming</artifactId>
-            <version>0.0.8</version>
+            <groupId>com.github.beskrovnykh</groupId>
+            <artifactId>TeachingKidsProgramming.Source.Java</artifactId>
+            <version>feature~apidoc-russian-translate-SNAPSHOT</version>
         </dependency>
     </dependencies>
-
 
 </project>
