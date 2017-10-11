@@ -12,6 +12,8 @@ import org.teachingkidsprogramming.recipes.quizzes.graders.SquareQuiz;
  *          Turn - повернуть
  *          Width - толщина
  *          Yellow - желтый
+ *          Color - цвет
+ *          Pen - перо
  **/
 public class SimpleSquareQuiz implements SquareQuiz {
     public void question1() {
@@ -23,7 +25,7 @@ public class SimpleSquareQuiz implements SquareQuiz {
     }
 
     public void question3() {
-        //  Поменять цвет линии, которую рисует черепашка, на желтый
+        //  Поменять цвет линии пера, которым рисует черепашка, на желтый
     }
 
     public void question4() {
