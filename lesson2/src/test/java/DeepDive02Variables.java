@@ -2,7 +2,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 /**
- *      Задание: циклы в Java
+ *      Задание: переменные в Java
  *
  *      Шаг 1: Выбрать метод (например, numbersDoNotNeedQuotes на 30-ой строке),
  *          затем нажать на зеленую кнопку (Run...) или
