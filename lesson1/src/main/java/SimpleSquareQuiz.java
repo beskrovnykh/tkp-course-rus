@@ -21,7 +21,7 @@ public class SimpleSquareQuiz implements SquareQuiz {
     }
 
     public void question2() {
-        //  Повернуть черепашку на угол, равный 1/5 от 360 градусов, вправо
+        //  Повернуть черепашку на угол, равный 1/5 от 360 градусов, направо
     }
 
     public void question3() {
