@@ -7,7 +7,7 @@ import org.teachingextensions.logo.utils.TortoiseUtils;
 /**
  *      Задание: циклы в Java
  *
- *      Шаг 1: Выбрать метод (например, numbersDoNotNeedQuotes на 30-ой строке),
+ *      Шаг 1: Выбрать метод (например, numbersDoNotNeedQuotes на 24-ой строке),
  *          затем нажать на зеленую кнопку (Run...) или
  *            сочетание клавиш для запуска теста ->  для PC в Eclipse: Ctrl+F11, для Mac в Eclipse: Command+Fn+F11
  *      Шаг 2: Убедиться, что задание с тестом не проходит
@@ -17,58 +17,37 @@ import org.teachingextensions.logo.utils.TortoiseUtils;
  *      ВАЖНО: Ничего кроме подчеркивания ___ менять не нужно!
  **/
 public class DeepDive01ForLoops {
-    /**
-     * Для чисел не нужно писать кавычки
-     */
     @Test
     public void numbersDoNotNeedQuotes() {
         Assert.assertEquals(42, ____);
     }
 
-    /**
-     * Какая ширина линии черепашки по умолчанию?
-     */
     @Test
     public void defaultWidthForTheTortoise() throws Exception {
         Assert.assertEquals(Tortoise.getPenWidth(), ____);
     }
 
-    /**
-     * Для строк нужно писать кавычки
-     */
     @Test
     public void stringsNeedQuotes() throws Exception {
         Assert.assertEquals("Green", ___);
     }
 
-    /**
-     * Строки могут содержать пробелы
-     */
     @Test
     public void stringsCanIncludeSpaces() throws Exception {
         Assert.assertEquals("This is a string", ___);
     }
 
-    /**
-     * Строки могут быть и на русском
-     */
     @Test
     public void stringsCanIncludeRussian() throws Exception {
         Assert.assertEquals("Привет", ___);
     }
 
-    /**
-     * Ширину линии черепашки можно менять
-     */
     @Test
     public void changingThePenWidthTo5() throws Exception {
         Tortoise.setPenWidth(____);
         Assert.assertEquals(5, Tortoise.getPenWidth());
     }
 
-    /**
-     * Если черепашку передвинуть на 100 пикселей, то ...
-     */
     @Test
     public void movingTheTortoise100Pixels() throws Exception {
         int start = Tortoise.getY();
@@ -76,18 +55,12 @@ public class DeepDive01ForLoops {
         Assert.assertEquals(Tortoise.getY(), start - 100);
     }
 
-    /**
-     * Если черепашку повернуть на 21 градус, то ...
-     */
     @Test
     public void theTortoiseTurns21() throws Exception {
         Tortoise.turn(____);
         Assert.assertEquals(21.0, Tortoise.getAngle(), 0.01);
     }
 
-    /**
-     * Если черепашку повернуть на 15 градусов дважды, то ...
-     */
     @Test
     public void theTortoiseTurns15Twice() throws Exception {
         Tortoise.turn(____);
@@ -95,9 +68,6 @@ public class DeepDive01ForLoops {
         Assert.assertEquals(30.0, Tortoise.getAngle(), 0.01);
     }
 
-    /**
-     * Насколько быстро черепашка может передвигаться
-     */
     @Test
     public void howFastCanTheTortoiseGo() throws Exception {
         Tortoise.setSpeed(____);
@@ -105,54 +75,36 @@ public class DeepDive01ForLoops {
         // Подсказка: посмотреть документацию к методу setSpeed
     }
 
-    /**
-     * Инициализация переменной
-     */
     @Test
     public void assigningVariables() throws Exception {
         int myFavoriteNumber = 101;
         Assert.assertEquals(myFavoriteNumber, ____);
     }
 
-    /**
-     * Сумма двух чисел
-     */
     @Test
     public void combiningNumbers() throws Exception {
         int age = 3 + 4;
         Assert.assertEquals(age, ____);
     }
 
-    /**
-     * Комбинация строк
-     */
     @Test
     public void combiningText() throws Exception {
         String name = "Peter" + " " + "Pan";
         Assert.assertEquals(name, ___);
     }
 
-    /**
-     * Комбинация строки и числа
-     */
     @Test
     public void combiningTextAndNumbers() throws Exception {
         String name = "Henry The " + 8;
         Assert.assertEquals(name, ___);
     }
 
-    /**
-     * Строка есть строка даже если это число
-     */
     @Test
     public void textIsTextEvenWhenItsNumbers() throws Exception {
         String age = "3" + "4";
         Assert.assertEquals(age, ___);
     }
 
-    /**
-     * Объединение строк в цикле
-     */
     @Test
     public void combiningTextInALoop() throws Exception {
         String sound = "A";
@@ -162,9 +114,6 @@ public class DeepDive01ForLoops {
         Assert.assertEquals(sound, ___);
     }
 
-    /**
-     * Цикл может продолжаться сколько угодно
-     */
     @Test
     public void forLoopsEndAtTheEnd() throws Exception {
         String numbers = "# ";
@@ -175,9 +124,6 @@ public class DeepDive01ForLoops {
         Assert.assertEquals("# 012345", numbers);
     }
 
-    /**
-     * Цикл может начинаться с любого числа
-     */
     @Test
     public void forLoopsCanStartAnywhere() throws Exception {
         String answer = "Потому что ";
@@ -189,9 +135,6 @@ public class DeepDive01ForLoops {
         Assert.assertEquals("Потому что 789", answer);
     }
 
-    /**
-     * В цикле можно пропускать какие-нибудь числа
-     */
     @Test
     public void forLoopsCanSkip() throws Exception {
         String numbers = "# ";
@@ -202,9 +145,6 @@ public class DeepDive01ForLoops {
         Assert.assertEquals("# 1,3,5,7,9,11,13,15,17,19,", numbers);
     }
 
-    /**
-     * Цикл можно ограничить и сверху и снизу
-     */
     @Test
     public void forLoopsCanSkipUpAndDown() throws Exception {
         String numbers = "# ";
@@ -215,9 +155,6 @@ public class DeepDive01ForLoops {
         Assert.assertEquals("# 20,17,14,11,8,5,2,", numbers);
     }
 
-    /**
-     * Цикл можно пройти в обратном направлении
-     */
     @Test
     public void forLoopsCanGoBackwards() throws Exception {
         String numbers = "Обратно: ";
@@ -228,9 +165,6 @@ public class DeepDive01ForLoops {
         Assert.assertEquals("Обратно: 987654321", numbers);
     }
 
-    /**
-     * Точка с запятой, поставленная где не надо, может все испортить
-     */
     @Test
     public void semicolonsMessUpForLoops() throws Exception {
         String sound = "A";
