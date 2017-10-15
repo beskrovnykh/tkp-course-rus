@@ -8,8 +8,10 @@ import org.teachingextensions.logo.Tortoise;
  *      Словарь:
  *          House - дом
  *          Gray - серый
- *          Random - случайный
+ *          Pen - перо
  *          Draw - рисовать
+ *          Random - случайный
+ *          Color - цвет
  *          Build - строить
  *          Height - высота
  **/

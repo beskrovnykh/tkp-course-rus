@@ -5,6 +5,15 @@ import org.teachingkidsprogramming.recipes.quizzes.graders.HousesQuizGrader;
  *      Задание:
  *          Заменить комментарии ниже инструкциями на языке Java так,
  *              чтобы 6 из 6 тестов проходили успешно.
+ *
+ *      Словарь:
+ *          Small - маленький
+ *          Medium - средний
+ *          Large - большой
+ *          Length - длина
+ *          Corner - угол
+ *          Draw - рисовать
+ *          Side - сторона
  **/
 public class HousesQuiz extends HousesQuizAdapter {
     @SuppressWarnings("unused")

@@ -6,10 +6,13 @@
  *              Производите замены по порядку, согласно номерам в конце каждой строки.
  *
  *      Словарь:
+ *          Length - длина
  *          Triangle - треугольник
  *          Triangle Shell - ракушка
- *          Random - случайный
+ *          Pen - перо
  *          Draw - рисовать
+ *          Random - случайный
+ *          Color - цвет
  **/
 public class TriangleShell {
 
