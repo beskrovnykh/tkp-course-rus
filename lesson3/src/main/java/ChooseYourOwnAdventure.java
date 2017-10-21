@@ -28,7 +28,7 @@ import java.awt.*;
  **/
 @SuppressWarnings("unused")
 public class ChooseYourOwnAdventure {
-    public static void main() {
+    public static void main(String[] args) {
         startStory();
     }
 
