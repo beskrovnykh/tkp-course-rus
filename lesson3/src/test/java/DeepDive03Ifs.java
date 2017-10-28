@@ -18,7 +18,7 @@ public class DeepDive03Ifs {
     public void doesABear() throws Exception {
         String bearPoopPlace = "";
         if (true) {
-            bearPoopPlace = "woods";
+            bearPoopPlace = ___;
         }
         Assert.assertEquals("woods", bearPoopPlace);
     }
@@ -29,13 +29,13 @@ public class DeepDive03Ifs {
         if (false) {
             dessert = "ketchup";
         }
-        Assert.assertEquals("chocolate", dessert);
+        Assert.assertEquals(___, dessert);
     }
 
     @Test
     public void notEverEverEver() throws Exception {
         String dessert = "chocolate";
-        if (!true) {
+        if (!_____) {
             dessert = "ketchup";
         }
         Assert.assertEquals("chocolate", dessert);
@@ -44,7 +44,7 @@ public class DeepDive03Ifs {
     @Test
     public void isThePopeCatholic() throws Exception {
         String pope = "";
-        if (true) {
+        if (_____) {
             pope = "Catholic";
         }
         Assert.assertEquals("Catholic", pope);
@@ -53,7 +53,7 @@ public class DeepDive03Ifs {
     @Test
     public void trueOrFalse() throws Exception {
         String animal = "cat";
-        boolean elephant = true;
+        boolean elephant = _____;
         if (elephant) {
             animal = "flat " + animal;
         }
@@ -63,7 +63,7 @@ public class DeepDive03Ifs {
     @Test
     public void letSleepingBabiesLie() throws Exception {
         String babySounds = "";
-        boolean sleeping = false;
+        boolean sleeping = ______;
         if (sleeping) {
             babySounds = "zzzzzzzzzzzz";
         } else {
@@ -75,7 +75,7 @@ public class DeepDive03Ifs {
     @Test
     public void howCoachThinks() throws Exception {
         String coachSays = "try harder";
-        int percentEffort = 110;
+        int percentEffort = ____;
         if (percentEffort == 110) {
             coachSays = "good job";
         }
@@ -85,7 +85,7 @@ public class DeepDive03Ifs {
     @Test
     public void lessThan() throws Exception {
         String modeOfTransportation = "";
-        int age = 15;
+        int age = ____;
         if (age < 16) {
             modeOfTransportation = "keep walking";
         } else {
@@ -97,7 +97,7 @@ public class DeepDive03Ifs {
     @Test
     public void greaterThan() throws Exception {
         String kidSays = "";
-        int numberOfIceCreams = 5;
+        int numberOfIceCreams = ____;
         if (numberOfIceCreams > 4) {
             kidSays = "I think I'm gonna barf";
         } else {
@@ -109,7 +109,7 @@ public class DeepDive03Ifs {
     @Test
     public void notEqual() throws Exception {
         String playerSays = "";
-        int cards = 52;
+        int cards = ____;
         if (cards != 52) {
             playerSays = "Not playing with a full deck!";
         } else {
@@ -121,7 +121,7 @@ public class DeepDive03Ifs {
     @Test
     public void equalsForStrings() throws Exception {
         String knockKnock = "";
-        String whosThere = "bananas";
+        String whosThere = ___;
         if (whosThere.equals("bananas")) {
             knockKnock = "Who's there?";
         } else if (whosThere.equals("orange")) {
@@ -133,8 +133,8 @@ public class DeepDive03Ifs {
     @Test
     public void thisAndThat() throws Exception {
         String time = "";
-        int score = 4;
-        int years = 7;
+        int score = ____;
+        int years = ____;
         if (score == 4 && years == 7) {
             time = "Presidential";
         }
@@ -144,7 +144,7 @@ public class DeepDive03Ifs {
     @Test
     public void theBeginningOrEnd() throws Exception {
         String shoppingList = "";
-        int age = 1;
+        int age = ____;
         if (age <= 2 || 90 <= age) {
             shoppingList = "diapers";
         }
@@ -154,7 +154,7 @@ public class DeepDive03Ifs {
     @Test
     public void ifInHighSchool() throws Exception {
         String status = "";
-        int age = 16;
+        int age = ____;
         if (age <= 15) {
             status = "smarty";
         } else if (age > 19) {
@@ -169,7 +169,7 @@ public class DeepDive03Ifs {
     public void nestedIfOrPigsInABlanket() throws Exception {
         String status = "";
         String animal = "PIG";
-        boolean isWinningKarate = false;
+        boolean isWinningKarate = ______;
         if (animal.equalsIgnoreCase("pig")) {
             if (isWinningKarate) {
                 status = "pork chop";
@@ -188,7 +188,7 @@ public class DeepDive03Ifs {
         {
             dessert = "ketchup";
         }
-        Assert.assertEquals("ketchup", dessert);
+        Assert.assertEquals(___, dessert);
     }
 
     /**
