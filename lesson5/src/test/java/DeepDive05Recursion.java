@@ -48,7 +48,7 @@ public class DeepDive05Recursion {
 		HashMap<Integer, Color> colors = new HashMap<Integer, Color>();
 		colors.put(20, PenColors.Greens.DarkGreen);
 		colors.put(30, PenColors.Greens.Green);
-		Assert.assertEquals(PenColors.Greens.Green, colors.get(___));
+		Assert.assertEquals(PenColors.Greens.Green, colors.get(____));
 	}
 
 	@Test
