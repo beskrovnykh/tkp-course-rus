@@ -26,7 +26,7 @@ public class CloneTurtles {
   public CloneTurtles() {
     showSomeTurtles();
   }
-
+  //
   private void showSomeTurtles() {
     // Повторить следующие действия 3 раза (использовать цикл for с переменной i) --#4.1
       // Создать новую переменную myTurtle тип Turtle --#2.1
@@ -39,7 +39,7 @@ public class CloneTurtles {
     //    .setPenColor(PenColors.Yellows.Gold).addTo(window);
     //
     // Используя цикл foreach для контейнера (списка) повторить следующие действия --#5.1
-      // Добавить и показать черепашки на экране --#5.3
+      // Добавить и показать черепашку на экране --#5.3
     // Конец повторений --#5.2
     //
     // Выполнить следующие действия 3 раза (использовать цикл for с переменной i)   --#6.1
